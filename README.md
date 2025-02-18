@@ -7,9 +7,9 @@
   - **RAM**: 32GB LPDDR5X (6400MHz)  
   - **NPU**: Intel AI Boost (AI 가속 전용)  
   - **GPU**: Intel Arc 140V (내장, 16GB)  
-  - **스토리지**: Samsung MZVL21T0HCLR (1TB NVMe SSD)  
+  - **스토리지**: Samsung MZVL21T0HCLR (1TB NVMe SSD)x2
 - **운영체제**: Windows 11 Pro (64bit)  
-- **실행 환경**: WSL2 (Ubuntu 24.04.1 LTS)  
+- **실행 환경**: WSL2 (Ubuntu 24.04.1 LTS)
 - **Node.js 버전**: v22.13.1 (WSL2 내 설치)  
 - **테스트 조건**: 동시 연결 **1000개**, 테스트 시간 **30초**  
 - **테스트 일시**: 17:04 ~ 18:06
@@ -62,7 +62,7 @@
 - **총 요청 수:** 2,836,000개 
 - **에러:** 없음  
 
-**→ Fastify는 동시 1000개 요청에서도 안정성과 성능 좋음**
+**→ Fastify는 동시 1000개 요청에서도 안정성과 성능 우수**
 
 ---
 
